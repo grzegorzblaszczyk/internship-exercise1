@@ -2,6 +2,8 @@
 <html>
  <head>
   <title>goodylabs internship exercise 1</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
   <style type="text/css">
       html, body {
             padding: 0;
@@ -12,11 +14,6 @@
       body {
         background: #498384
       } 
-
-      header {
-        text-align: center;
-        font-weight: bold;
-      }
 
       footer {
         background-color: #333;
@@ -29,24 +26,10 @@
         background :url(https://camo.githubusercontent.com/d9bf1c725e677dc45d4617ffcad88fe7eb6bdbcc/687474703a2f2f7777772e676f6f64796c6162732e636f6d2f6173736574732f6c6f676f2d63303131643061306661386336346531643663323834343035666332313535642e706e67) no-repeat scroll 0 0;
         width: 195px;
         height: 203px;
-        margin: 0 auto;
-      }
-
-      #content {
-        padding: 10px 10px;
-      }
-
-      #content h3 {
-        text-align: center; 
-      }
-
-      #content ul {
-        display: table;
-        margin: 0 auto;
       }
 
       .social {
-        margin: 5px 5px; 
+        margin: 2px 2px; 
         float: right;
         vertical-align: middle;
       }
@@ -58,26 +41,42 @@
       }       
 
  </style>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
  </head>
  <body>
-    <header>
-        <h1>goodylabs internship exercise 1</h1>
-        <div id="logo"></div>
-    </header>
-    <div id="content">
-          <h3>list of my hobbies</h3>
-          <ul>
-            <li>Watching tutorials about technologies related my work.</li>
-            <li>Watching game walkthroughs mostly on YouTube also Twitch.</li>
-            <li>Learning new words from foreign languages.</li>
-            <li>Travelling to places where I can see different aspects of life.</li>
-            <li>Following global events such as news.</li>
-            <li>Following world wide organizations and exhibitions.</li>
-          </ul>
-    </div>
-    <footer>
-      <div class="social">
-        <a href="https://twitter.com/goodylabs" target="_blank">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1>goodylabs internship exercise 1</h1>
+           <div id="logo"></div>
+           <p style="float: right;"><a class="btn btn-primary btn-lg" href="https://github.com/goodylabs/internship-exercise1" role="button">Learn more &raquo;</a></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Writing a plugin for WordPress</h2>
+            <p>I was going to create just a plugin but as I understood WordPress plugins are often used for back-end works and if want to see things change in user site depending on my selections, I thought that a widget might be more useful.</p>
+            <p><a class="btn btn-default" href="http://www.emrahsifoglu.com/demo/wordpress/?page_id=21" target="_blank" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Uderstanding of OOP principles</h2>
+            <p>Having a <a style="color: black;" href="http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29" target="_blank">solid</a> understanding of OOP principles also using design patterns are my main goals and with this projects I have improved my skills.</p>
+            <p><a class="btn btn-default" href="https://github.com/emrahsifoglu/themovies/tree/v2" target="_blank" role="button">View details &raquo;</a></p>
+         </div>
+          <div class="col-md-4">
+            <h2>CSS and JavaScript Animations</h2>
+            <p>Creating 2d animations may be one of the best practice helps me to learn how to solve programmatically problems by using math.</p>
+            <p><a class="btn btn-default" href="http://www.emrahsifoglu.com/demo/css-js/" target="_blank" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+        <hr>
+    </div> <!-- /container -->      
+      <footer>
+          <div class="social">
+            <a href="https://twitter.com/goodylabs" target="_blank">
           <div id="twitter"></div>
         </a>
       </div>
